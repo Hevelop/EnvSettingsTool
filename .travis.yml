@@ -7,6 +7,6 @@ script:
   - cd tests && phpunit
 notifications:
   email:
-    recipients: [ fabrizio.branca@aoe.com ]
     on_success: always
+    recipients: [ simone@hevelop.com ]
     on_failure: always
