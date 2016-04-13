@@ -34,7 +34,7 @@ abstract class Est_Handler_Magento_AbstractDatabase extends Est_Handler_Abstract
     protected function _getDatabaseConnectionParameters()
     {
         $localXmlFile = 'app/etc/local.xml';
-        $configPhpFile = 'app/etc/config.php';
+        $configPhpFile = 'app/etc/env.php';
 
         if (is_file($localXmlFile)) {
             $config = simplexml_load_file($localXmlFile);
